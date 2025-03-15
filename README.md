@@ -22,6 +22,21 @@
 $ npm run start:dev
 ```
 
+#### Environment Variables
+Setup the dependencies
+```bash
+ npm install @nestjs/config
+```
+
+#### Create user CRUD API
+Setup the dependencies
+```bash
+ nest g module users
+ nest g controller users  
+ nest g service users
+```
+
+
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
