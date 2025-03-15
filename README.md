@@ -36,6 +36,21 @@ Setup the dependencies
  nest g service users
 ```
 
+User CRUD API Folder Structure
+```
+src/
+│
+├── user/
+│   ├── dto/
+│   │   ├── create-user.dto.ts
+│   │   ├── update-user.dto.ts
+│   ├── entities/
+│   │   └── user.entity.ts
+│   ├── user.controller.ts
+│   ├── user.service.ts
+│   └── user.module.ts
+```
+
 
 ## License
 
